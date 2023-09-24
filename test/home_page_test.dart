@@ -24,7 +24,7 @@ void main() {
     final imc1 = imcRepository.calculateIMC(weight: 70, height: 1.7);
     final imc2 = imcRepository.calculateIMC(weight: 80, height: 1.75);
 
-    expect(imc1.text, 'Sobrepeso');
-    expect(imc2.text, 'Obesidade Grau I');
+    expect(imc1.text, 'Saudável');
+    expect(imc2.text, 'Sobrepeso');
   });
 }
